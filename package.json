@@ -1,0 +1,26 @@
+{
+  "name": "apirequest",
+  "version": "1.0.0",
+  "description": "api request of movies with expressand node",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --watch server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdx919/APIrequestExNode.git"
+  },
+  "author": "md naim uddin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mdx919/APIrequestExNode/issues"
+  },
+  "homepage": "https://github.com/mdx919/APIrequestExNode#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "nodemon": "^1.18.3",
+    "request": "^2.88.0"
+  }
+}
